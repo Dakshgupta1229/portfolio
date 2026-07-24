@@ -37,14 +37,14 @@ export default function ProjectCard({
         className="group overflow-hidden rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-lg"
       >
         {/* Project Image */}
-        <div className="overflow-hidden">
-          <img
-            src={image}
-            alt={title}
-            loading="lazy"
-            className="h-56 w-full object-cover transition duration-500 group-hover:scale-105"
-          />
-        </div>
+        <div className="flex h-64 items-center justify-center overflow-hidden bg-slate-950 p-4">
+  <img
+    src={image}
+    alt={title}
+    loading="lazy"
+    className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
+  />
+</div>
 
         {/* Content */}
         <div className="p-6">
