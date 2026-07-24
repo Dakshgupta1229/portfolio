@@ -167,12 +167,12 @@ export default function Hero() {
 
                 <div>
                   <h3 className="font-semibold">
-                    TCS Digital
-                  </h3>
+  AI Enthusiast
+</h3>
 
-                  <p className="text-sm text-gray-400">
-                    System Engineer
-                  </p>
+<p className="text-sm text-gray-400">
+  Building Intelligent Solutions
+</p>
                 </div>
               </div>
             </FloatingCard>
